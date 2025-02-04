@@ -1,0 +1,35 @@
+.hero{
+    height: 60vh;
+    padding: 25px;
+}
+.hero_content{
+    display: flex;
+    padding-inline: 110px;
+    gap: 30px;
+    justify-content: space-between;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+.hero_left{
+    max-width: 50%;
+    margin-top: 100px;
+}
+.hero_left h1{
+    font-size: 4.5rem;
+    margin-top: 10px;
+}
+.hero_left p{
+    font-size: 18px;
+    color: #666;
+    margin-top: 15px;
+}
+.hero_right{
+    max-width: 50%;
+}
+.hero_right img{
+    width: 640px;
+    height: 500px;
+    object-fit: contain;
+    margin-top: -15px;
+}
