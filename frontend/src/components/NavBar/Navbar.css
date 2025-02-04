@@ -1,0 +1,60 @@
+.navbar{
+    padding: 30px;
+    padding-inline: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar input{
+    padding: 0.9rem 12rem;
+    border-radius: 30px;
+    border: 2px solid #777;
+    position: relative;
+}
+.navbar .search .search_icon{
+    font-size: 24px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 100;
+    margin-top: 12px;
+}
+.navbar .search .cancel{
+    position: absolute;
+    font-size: 30px;
+    margin-left: -36px;
+    margin-top: 7px;
+}
+.nav_icon_wrapper{
+    display: flex;
+}
+.nav_icon{
+    font-size: 34px;
+    margin-left: 35px;
+}
+.nav_cart{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+.nav_cart_amount{
+    background-color: #ef4444;
+    position: absolute;
+    right: -8px;
+    font-size: 12px;
+    height: 20px;
+    width: 20px;
+    color: #ffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .navbar.active{
+    padding: 20px;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: #f9f9f9;
+    transition: 0.5s;
+} */
