@@ -1,0 +1,30 @@
+.product_details{
+    display: flex;
+    padding: 80px;
+}
+.detail_left img{
+    width: 460px;
+}
+.detail_right{
+    padding: 70px;
+}
+.detail_right h3{
+    font-size: 30px;
+}
+.detail_right .product_price{
+    font-size: 22px;
+    color: orange;
+    margin-top: 10px;
+}
+.detail_right .desc{
+    font-size: 20px;
+    color: #666;
+    margin-top: 15px;
+}
+.detail_right button{
+    padding: 1rem 3.6rem;
+    margin-top: 15px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+}
